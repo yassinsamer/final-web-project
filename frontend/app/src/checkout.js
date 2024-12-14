@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './checkout.css'; // Make sure this is the correct path to your checkout styles
+import './checkout.css'; 
 
 const Checkout = ({ cartItems, calculateTotal, navigateTo, username }) => {
   const [isFormVisible, setIsFormVisible] = useState(false); // State for toggling form visibility
@@ -10,7 +10,7 @@ const Checkout = ({ cartItems, calculateTotal, navigateTo, username }) => {
   });
   const [successMessage, setSuccessMessage] = useState(''); // For showing the success/error message
 
-  // Handle form input changes
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -19,12 +19,12 @@ const Checkout = ({ cartItems, calculateTotal, navigateTo, username }) => {
     });
   };
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const orderData = {
-      userName: formData.name || username, // Use logged-in username if available
+      userName: formData.name || username, 
       phone: formData.phone,
       address: formData.address,
       cartItems: cartItems,
@@ -107,7 +107,6 @@ const Checkout = ({ cartItems, calculateTotal, navigateTo, username }) => {
         <button className="complete-btn" onClick={toggleFormVisibility}>Complete Purchase</button>
       </div>
 
-      {/* Dropdown form for user details */}
       {isFormVisible && (
         <div className="form-container">
           <form onSubmit={handleSubmit}>
