@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  
+  .products-header {
+    background-color: #8f0d0d;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .products-header h2 {
+    margin: 0;
+  }
+  
+  .products-header p {
+    font-size: 18px;
+  }
+  
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+   .product {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    height: 250px; 
+  }
+  
+  .product:hover {
+    transform: translateY(-11px);
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .product p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .product button {
+    padding: 10px;
+    background-color: #ab101a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .product button:hover {
+    background-color: #7d0505;
+  }
+  
+  .product-1 {
+    background-image: url('https://cdn.media.amplience.net/i/frasersdev/37848408_o.jpg?v=240429125331');
+  }
+  
+  .product-2 {
+    background-image: url('https://assets.adidas.com/images/w_1880,f_auto,q_auto/038692973e594495a5966d3ba81af3b7_9366/JK2250_21_model.jpg');
+  }
+  
+  .product-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWz20Ngkzkt_IXtRMFymrX_kulG1nLzzBKNQ&s');
+  }
+  
+  .product-4 {
+    background-image: url('https://kickkit.co.za/cdn/shop/files/Inter_Miami_CF_24-25_Messi_Home_Jersey_Pink_JE9741_01_laydown.jpg?v=1722931957');
+  }
+  
+  .product-5 {
+    background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/cbc6793f0b9143cfac29ad720104e9bb_9366/Boca_Juniors_21-22_Home_Jersey_Blue_HD9685_01_laydown.jpg');
+  }
+  
+  .product-6 {
+    background-image: url('https://dsrcv.com/cdn/shop/files/sport-short-black-destructive-977865_grande.jpg?v=1724397573');
+  }
+  
+  .product-7 {
+    background-image: url('https://media.alshaya.com/adobe/assets/urn:aaid:aem:6f1470da-1be2-4f67-bfb8-4a5062102d74/original/as/EID-d87f43287e75c80f9d88cdf0d8c77e178682e5c1.jpg?preferwebp=true');
+  }
+  
+  .product-8 {
+    background-image: url('https://image.hm.com/assets/hm/33/6e/336e0455eaf642ba0a0bdcfb877cfc2e1b3fcda8.jpg?imwidth=2160');
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

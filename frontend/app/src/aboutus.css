@@ -1,0 +1,70 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  /* About Us Section */
+  .about-header {
+    background-color: #8f0d0d;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .about-header h2 {
+    margin: 0;
+  }
+  
+  .about-header p {
+    font-size: 18px;
+  }
+  
+  .about-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-content h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    color: #777;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

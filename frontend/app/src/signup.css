@@ -1,5 +1,7 @@
-/* login.css */
-.login-container {
+
+
+
+.signup-container {
     font-family: Arial, sans-serif;
     background: url('https://i.pinimg.com/originals/40/7d/4a/407d4a26f8e5b4568a68f9129d0c6686.jpg');
     background-size: cover;
@@ -10,27 +12,30 @@
     margin: 0;
 }
 
-.login-box {
+
+.signup-box {
     background-color: #ffffffad;
     border-radius: 8px;
     padding: 40px;
     width: 300px;
 }
 
-.login-box h2 {
+/* Header */
+.signup-box h2 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
-.login-box label {
-    
+
+.signup-box label {
     text-align: center;
     font-size: 14px;
     color: #333;
 }
 
-.login-box input {
+/* Input Fields */
+.signup-box input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -38,7 +43,8 @@
     border-radius: 4px;
 }
 
-.login-button {
+
+.signup-button {
     width: 100%;
     padding: 10px;
     background-color: #bd0c1e;
@@ -49,9 +55,10 @@
     border-radius: 4px;
 }
 
-.login-button:hover {
+.signup-button:hover {
     background-color: #a73b44;
 }
+
 
 .footer {
     margin-top: 20px;
@@ -72,3 +79,8 @@
 }
 
 
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,133 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .cart-header {
+    background-color: #8f0d0d;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .cart-header h2 {
+    margin: 0;
+  }
+  
+  .cart-header p {
+    font-size: 18px;
+  }
+  
+  .cart-items {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items table th, .cart-items table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .cart-items table th {
+    background-color: #f4f4f4;
+  }
+  
+  .cart-items table td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .cart-items table td select,
+  .cart-items table td input {
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .cart-summary {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .cart-summary p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .cart-summary button {
+    padding: 12px 20px;
+    background-color: #c20c0c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cart-summary button:hover {
+    background-color: #950c0c;
+  }
+  
+  .checkout-btn {
+    display: inline-block;
+    background-color: #b70c0c;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #760606;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
